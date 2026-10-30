@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabaris B | Civil Engineering Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: skyblue;
+            color: black;
+        }
+
+        header {
+            background: #68bde5;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            font-size: 28px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .home {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px 8%;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .home-text h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .home-text h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .home-text p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .home img {
+            width: 350px;
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px #3335;
+        }
+
+        section {
+            padding: 65px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .details {
+            background: #a5dcf5;
+            max-width: 550px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: left;
+        }
+
+        .details p {
+            margin: 12px 0;
+            font-weight: bold;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background: #a5dcf5;
+            padding: 20px 30px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #68bde5;
+            text-align: center;
+            padding: 25px;
+            font-weight: bold;
+        }
+
+        @media(max-width: 600px) {
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 8px;
+                display: inline-block;
+            }
+
+            .home-text h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>SABARIS.B</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <div class="home-text">
+            <h3>WELCOME TO MY PORTFOLIO</h3>
+            <h1>Hi, I'm SABARIS.B</h1>
+            <h3>Future Civil Engineer 🏗️</h3>
+            <p>
+                First Year Student<br>
+                Department of Civil Engineering<br>
+                Building My Dreams, One Step at a Time!
+            </p>
+        </div>
+
+        <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
+            alt="Beautiful Modern House">
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Sabaris B, a first-year Civil Engineering student.
+            I am passionate about buildings, architecture, construction
+            and designing the future. My dream is to become a successful
+            civil engineer.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>My Education</h2>
+        <div class="details">
+            <p>Name: SABARIS.B</p>
+            <p>Department: Civil Engineering</p>
+            <p>Year: First Year</p>
+            <p>Field: Engineering</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Interests</h2>
+        <div class="skills">
+            <div class="skill">🏠 Architecture</div>
+            <div class="skill">🏗️ Construction</div>
+            <div class="skill">📐 Building Design</div>
+            <div class="skill">🌉 Civil Engineering</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Thank you for visiting my portfolio!</p>
+        <p>Let's build a better future together.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 SABARIS.B | Civil Engineering Portfolio</p>
+    </footer>
+
+</body>
+</html>
